@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.background-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+}
+.Appointment-form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  width: 60vw;
+}
+.Appointment-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+.image {
+  height: 250px;
+}
+.input-element {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+}
+.button {
+  height: 34px;
+  width: 80px;
+  background-color: #8b5cf6;
+  border-radius: 15px;
+  border: none;
+}
+.horizontal-line {
+  border-width: 1px;
+  border-color: #b5b7c4;
+  width: 52vw;
+  margin-left: 0;
+}
+.container {
+  display: flex;
+}
+.app-star-container {
+  display: flex;
+  justify-content: space-between;
+}
+.heading-appointment {
+  font-size: 20px;
+}
+.button2 {
+  background-color: transparent;
+  border-radius: 15px;
+  margin-right: 40px;
+  height: 34px;
+  border-color: #b5b7c4;
+  border: solid;
+  border-width: 1px;
+  width: 100px;
+}
+.unordered-container {
+  padding-left: 0;
+  display: flex;
+}
+.button-voilet {
+  background-color: #9897f0;
+  border-radius: 15px;
+  margin-right: 40px;
+  height: 34px;
+  border-color: #b5b7c4;
+  border: solid;
+  border-width: 1px;
+  width: 100px;
+}
